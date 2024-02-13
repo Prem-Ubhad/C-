@@ -10,7 +10,7 @@ int main()
    case 'a':
     cout<<"Letter a is a vowel"<<endl;
     break;
-   case 'e':
+   case 'e': 
     cout<<"Letter e is a vowel"<<endl;
     break;
    case 'i':
