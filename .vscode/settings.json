@@ -1,0 +1,7 @@
+{
+    "editor.mouseWheelZoom": true,
+    "files.associations": {
+        "*.py": "python",
+        "ostream": "cpp"
+    }
+}
