@@ -3,7 +3,7 @@ using namespace std;
 
 int sum(int a, int b){
     int c = a+b;
-    return c
+    return c;
 }
 
 int main()
