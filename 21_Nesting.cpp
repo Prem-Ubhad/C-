@@ -5,10 +5,10 @@ using namespace std;
 class binary
 {
    string s;
+   void check_bin(void);
 
    public:
       void read(void);
-      void check_bin(void);
       void ones_compliment(void);
       void display(void);
    
@@ -31,7 +31,9 @@ void binary :: check_bin(void){
 }
 
 void binary ::ones_compliment(void){
-
+      
+      check_bin();   //NESTING OF MEMBER FUNCTION
+      
       for (int i = 0; i < s.length(); i++)
       {
          if(s.at(i)=='0'){
@@ -58,7 +60,7 @@ int main()
 {
    binary b;
    b.read();
-   b.check_bin();
+   // b.check_bin();
    b.display();
    b.ones_compliment();
    b.display();
